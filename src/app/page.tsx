@@ -1,7 +1,9 @@
+import Main from "@/components/main/page";
+
 export default function Home() {
   return (
-    <div>
-      <div>asdfasd</div>
-    </div>
+    <>
+      <Main />
+    </>
   );
 }
