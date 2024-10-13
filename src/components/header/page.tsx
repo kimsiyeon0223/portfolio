@@ -12,13 +12,13 @@ export const Header = ({ color }: ttype) => {
       <h1 className={S.Title}>PORTIFY</h1>
       <div className={S.Bars}>
         <Link href="/ai">
-          <span className={S.AI}>AI 분석</span>
+          <span className={S.Btn}>AI 분석</span>
         </Link>
-        <Link href="/write">
-          <span className={S.Write}>포트폴리오 작성</span>
+        <Link href="/writePortfolio">
+          <span className={S.Btn}>포트폴리오 작성</span>
         </Link>
         <Link href="/my-portfolio">
-          <span className={S.My}>내 포트폴리오</span>
+          <span className={S.Btn}>내 포트폴리오</span>
         </Link>
       </div>
     </div>

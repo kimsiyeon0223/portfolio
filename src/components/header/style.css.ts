@@ -25,14 +25,6 @@ export const Bars = style({
   fontSize: "17px",
 });
 
-export const AI = style({
-  cursor: "pointer",
-});
-
-export const Write = style({
-  cursor: "pointer",
-});
-
-export const My = style({
-  cursor: "pointer",
+export const Btn = style({
+  backgroundColor: "none",
 });

@@ -14,18 +14,26 @@ export const RBigCloud = style({
   position: "absolute",
   right: "75%",
   bottom: "65%",
+  pointerEvents: "none",
 });
 
 export const LBigCloud = style({
   position: "absolute",
   bottom: "55%",
   left: "70%",
+  pointerEvents: "none",
 });
 
 export const smallCloud = style({
   position: "absolute",
   bottom: "15%",
   left: "62%",
+  pointerEvents: "none",
+});
+
+export const Header = style({
+  position: "relative",
+  zIndex: 1,
 });
 
 export const MainContainer = style({
