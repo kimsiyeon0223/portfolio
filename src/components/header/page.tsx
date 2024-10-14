@@ -17,7 +17,7 @@ export const Header = ({ color }: ttype) => {
         <Link href="/writePortfolio">
           <span className={S.Btn}>포트폴리오 작성</span>
         </Link>
-        <Link href="/my-portfolio">
+        <Link href="/showPortfolio">
           <span className={S.Btn}>내 포트폴리오</span>
         </Link>
       </div>
