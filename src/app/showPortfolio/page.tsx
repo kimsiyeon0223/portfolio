@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { Header } from "@/components/header";
+import { Header } from "@/components/header/index";
 import * as S from "./style.css";
 import MDEditor from "@uiw/react-md-editor";
 import { useRouter } from "next/navigation";
