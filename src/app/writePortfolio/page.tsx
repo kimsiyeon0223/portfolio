@@ -1,6 +1,6 @@
 "use client";
 
-import { Header } from "@/components/header/page";
+import { Header } from "@/components/header";
 import { useState, useEffect } from "react";
 import * as S from "./style.css";
 import MDEditor from "@uiw/react-md-editor";
