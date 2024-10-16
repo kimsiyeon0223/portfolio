@@ -13,10 +13,10 @@ export default function ShowPortfolio() {
   const router = useRouter();
 
   const contents =
-    searchParams.get("contents") || localStorage.getItem("content") || "";
+    searchParams?.get("contents") || localStorage.getItem("content") || "";
   const title =
-    searchParams.get("titles") || localStorage.getItem("title") || "";
-  const tags = searchParams.get("tags") || localStorage.getItem("tags") || "";
+    searchParams?.get("titles") || localStorage.getItem("title") || "";
+  const tags = searchParams?.get("tags") || localStorage.getItem("tags") || "";
 
   const tagList = tags.split(",").map((tag) => tag.trim());
 
