@@ -11,6 +11,26 @@ export default function AnalysisInput() {
   const router = useRouter();
 
   const handleAnalyze = () => {
+    // setAnalysis("");
+
+    // try {
+    //   const response = await fetch("/api/analyze", {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify({ text }),
+    //   });
+
+    //   const data = await response.json();
+    //   setAnalysis(data.analysis);
+    // } catch (error) {
+    //   setAnalysis("분석 중 오류가 발생했습니다.");
+    //   console.error("Error:", error);
+    // } finally {
+    //   setLoading(false);
+    // }
+
     setLoading(true);
     setTimeout(() => {
       router.push("/analysisResult");
@@ -38,6 +58,12 @@ export default function AnalysisInput() {
           {loading ? "분석 중..." : "분석하기"}
         </button>
       </main>
+      {/* {analysis && (
+        <div className={S.Result}>
+          <h3>분석 결과:</h3>
+          <p>{analysis}</p>
+        </div>
+      )} */}
     </div>
   );
 }
