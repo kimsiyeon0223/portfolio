@@ -1,4 +1,4 @@
-import { Header } from "@/components/header/page";
+import { Header } from "@/components/header";
 import * as S from "./style.css";
 import Link from "next/link";
 
@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <div className={S.Layout}>
       <img className={S.RBigCloud} src="/svgs/bigCloud.svg" alt="Big Cloud" />
-      <img className={S.LBigCloud} src="/svgs/bigCloud.svg" alt="Big Cloud" />
+      <img className={S.RBigCloud} src="/svgs/bigCloud.svg" alt="Big Cloud" />
       <img
         className={S.smallCloud}
         src="/svgs/smallCloud.svg"
