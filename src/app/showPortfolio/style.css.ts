@@ -2,12 +2,12 @@ import { style } from "@vanilla-extract/css";
 
 export const Layout = style({
   width: "100vw",
-  height: "100vh",
   backgroundColor: "#F7F8FA",
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
   padding: "84px 190px",
+  fontFamily: "Pretendard-Regular",
 });
 
 export const PortfolioContainer = style({
@@ -52,4 +52,17 @@ export const EditBtn = style({
   marginTop: "20px",
   border: "none",
   cursor: "pointer",
+});
+
+export const PDFBtn = style({
+  marginTop: "21px",
+  width: "fit-content",
+  marginLeft: "auto",
+  padding: "10px 24px",
+  border: "none",
+  cursor: "pointer",
+  color: "white",
+  backgroundColor: "#4CAF50",
+  borderRadius: "10px",
+  fontSize: "18px",
 });
