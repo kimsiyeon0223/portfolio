@@ -21,7 +21,7 @@ export default function ShowPortfolio() {
   const tagList = tags.split(",").map((tag) => tag.trim());
 
   const handleEdit = () => {
-    router.push(
+    router.replace(
       `/writePortfolio?contents=${encodeURIComponent(
         contents,
       )}&titles=${encodeURIComponent(title)}&tags=${encodeURIComponent(tags)}`,
