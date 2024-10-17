@@ -9,7 +9,9 @@ interface ttype {
 export const Header = ({ color }: ttype) => {
   return (
     <div className={classNames(S.Layout, { [S.LayoutColor]: color })}>
-      <h1 className={S.Title}>PORTIFY</h1>
+      <Link href="/">
+        <h1 className={S.Title}>PORTIFY</h1>
+      </Link>
       <div className={S.Bars}>
         <Link href="/analysisInput">
           <span className={S.Btn}>AI 분석</span>
